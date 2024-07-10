@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    background-color:#f4f5f6;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    font-weight: bold;
+    background-color: #f4f5f6;
+    color: #333;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo2 {
+    display: inline-block;
+    vertical-align: middle; 
+    padding-left: 20px;
+}
+
+
+.logo img {
+    height: 20px;
+    width: auto;
+    margin-right: 20px;
+}
+
+
+nav {
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(11, 11, 12);
+    font-size: 13px; 
+}
+
+.sign-in-box{
+    text-align: justify;
+    padding-top: 40px;
+    padding-left: 40%;
+}
+ .sign-in-box h2{
+    font-size: 35px;
+    margin: 20px;
+    color: rgba(11, 11, 12, 0.938);
+ }
+
+ .sign-in-box p{
+    margin-top: 20px;
+    font-size: 15px;
+ }
+ .signup{
+    align-items: center;
+    padding-top: 30px;
+ }
+ 
+ .signup input{
+    font-size: 15px;
+    padding: 10px;
+}
+.row{
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.row label{
+    color: rgba(11, 11, 12, 0.842);
+    font-size: 20px;
+    margin: 10px;
+}
+
+.row select{
+    margin-top: 5px;
+    text-align: center;
+    width: 80px;
+    height: 32px;
+    border-radius: 10px;
+}
+input {
+    height: 48px;
+    width: 180px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin: 3px;
+}
+input:focus {
+    outline: none; 
+    border-color: blue; 
+    box-shadow: 0 1 2px blue;
+
+}
+
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+}
+
+.row2 input{
+    width: 380px;
+}
+
+.row3{
+    margin-top: 20px;
+    display: flex;
+}
+ .signup-button{
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 6px;
+    height: 36px;
+    width: 180px;
+    border: none;
+    background-color: rgba(16, 93, 236, 0.979);
+    color:rgba(250, 249, 249, 0.925) ;
+    text-decoration: none;
+    cursor: pointer;
+
+ }

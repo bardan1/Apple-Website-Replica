@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <link rel="stylesheet" href="css/style2.css">
+  </head>
+  
+  <body>
+    <script src="jss/jquerymin.js"></script>
+    <script src="jss/home.js"></script>
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="images/apple.png" alt="Apple Logo">
+        </div>
+        <nav>
+          <ul>
+            <li><a href="home.html">Store</a></li>
+            <li><a href="#">Mac</a></li>
+            <li><a href="#">iPad</a></li>
+            <li><a href="#">iPhone</a></li>
+            <li><a href="#">Watch</a></li>
+            <li><a href="#">AirPods</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+          </ul>
+        </nav>
+    </header>
+	<div class="main">
+		<div class="label">
+			<h3 class="shoppingcart">Shopping Cart</h3>
+			<h5 class="Action">Remove all</h5>
+		</div>
+		<div class="Cart-Items">
+		   <div class="image-box">
+			   <img src="images/macbook.jpg" style="height: 160px;" />
+		   </div>
+		   <div class="about">
+			   <h1 class="title">Macbook Air</h1>
+			   <h3 class="subtitle">556GB</h3>
+		   </div>
+		   <div class="counter">
+			<div class="btn decrement">-</div>
+			<input type="number" name="quantity" id="productqty" class="count" placeholder="1" required min="1">
+			<div class="btn increment">+</div>
+
+		</div>
+		
+		   <div class="prices">
+			   <div class="amount">$1999.99</div>
+			   <div class="remove"><u>Remove</u></div>
+		   </div>
+		</div>
+		<hr> 
+		<div class="Cart-Items pad">
+		   <div class="image-box">
+			   <img src="images/visionpro.jpg" style="height: 160px;" />
+		   </div>
+		   <div class="about">
+			   <h1 class="title">Apple Vision Pro</h1>
+			   <h3 class="subtitle">Limited</h3>
+		   </div>
+		   <div class="counter">
+			<div class="btn decrement">-</div>
+			<input type="number" name="quantity" id="productqty" class="count" placeholder="1" required min="1">
+			<div class="btn increment">+</div>
+			
+		</div>
+		
+		   <div class="prices">
+			   <div class="amount">$2999.19</div>
+			   <div class="remove"><u>Remove</u></div>
+		   </div>
+		</div>
+	  <hr> 
+	  <div class="checkout">
+	  <div class="total">
+		  <div>
+			  <div class="Subtotal">Sub-Total</div>
+			  <div class="items">2 items</div>
+		  </div>
+		  <div class="total-amount">$1999.18</div>
+	  </div>
+	  <button class="button">Checkout</button>
+	  </div>
+	</div>
+ </body>
+ </html>

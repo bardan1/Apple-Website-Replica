@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: auto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    background-color:#f4f5f6;
+}
+
+.container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    font-weight: bold;
+    background-color: #f4f5f6;
+    color: #333;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+
+.logo img {
+    height: 20px;
+    width: auto;
+    margin-right: 20px;
+}
+
+
+nav {
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(11, 11, 12);
+    font-size: 13px; 
+}
+
+
+
+.signin{
+    padding-top: 40px;
+}
+
+.loginbox{
+
+    text-align: center;
+    font-size: 16px;
+    color: rgba(53, 51, 51, 0.836);
+    padding-top: 7%;
+    padding-right: 30%;
+    padding-left: 27%;
+    justify-content: left;
+}
+.loginbox input{
+    font-size: 15px;
+    padding: 10px;
+}
+
+input {
+    display: flex;
+    width: 45%;
+    height: 48px;
+    justify-content: left;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+input:focus {
+    outline: none; 
+    border-color: blue; 
+    box-shadow: 0 1 2px blue;
+}
+.login-button{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: rgba(16, 93, 236, 0.979);
+    color:rgba(250, 249, 249, 0.925) ;
+    width: 100px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.signup {
+    padding: 9%;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    font-size: 14px;
+    color : #414142;
+}
+
+
